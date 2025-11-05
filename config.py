@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 27256628
+API_HASH = "32a4fc33beea1adc1669f8d9e1ca2c9f"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "8292860625:AAF_cJ5l59HNssf2KUwTyP98N2eSUIDvo80"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://shakyay139_db_user:shakyay139_db_user@cluster0.bgfbbwi.mongodb.net/?appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1003110323451
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 7975686491
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/yogesh537o"
+SUPPORT_GROUP = "https://t.me/yogesh537o"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQGf5zQALOMWxa4_nYvC2wOzkRybm7ES204z4SnVDQXr7HePx7bc4dRQ1vw0YUg_427C-oPBpoaafVoPNekJME4PGNDNHtChHAP6r9aoKk0jFGiRU_nFNEbH2nSFRaN-JPOg-og1-WyvhgOppQH5azW8DVa6CFgOByrHZWRKJQCHFS8oP1S9aAKARCxwrjJSiaJdD1a2OpXqIbvvbInsK27dXQUqLZwrLELfUcTa6o3xX7JKF5dBqx6j0OrobxH9sXefkEwXDtd5ZJgoc86SrLi0cN0L6ZuyD-v2kwybFOKnFXLsUZBE5MHuZ_YBQWOwbBSH_xgolvmqirGajvPzgr2p91YAOwAAAAHbY1FbAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,9 +77,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/fae152d1730ebc25d5223-318d0fc2fc0d02c079.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/fae152d1730ebc25d5223-318d0fc2fc0d02c079.jpg"
 
 PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
@@ -112,3 +112,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
